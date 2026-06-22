@@ -171,7 +171,6 @@ st.markdown(f'''
   <span style="display:inline-block;padding:4px 12px;border-radius:99px;font-size:0.75rem;font-weight:600;margin-right:6px;margin-top:4px;background:#1e1e3a;color:#60a5fa">⚡ Energy {row_in["energy"]:.2f}</span>
   <span style="display:inline-block;padding:4px 12px;border-radius:99px;font-size:0.75rem;font-weight:600;margin-right:6px;margin-top:4px;background:#1e1e3a;color:#34d399">💃 Dance {row_in["danceability"]:.2f}</span>
   <span style="display:inline-block;padding:4px 12px;border-radius:99px;font-size:0.75rem;font-weight:600;margin-right:6px;margin-top:4px;background:#1e1e3a;color:#f472b6">😊 Valence {row_in["valence"]:.2f}</span>
-  <span style="display:inline-block;padding:4px 12px;border-radius:99px;font-size:0.75rem;font-weight:600;margin-right:6px;margin-top:4px;background:#1e1e3a;color:#a78bfa">🎸 {row_in["track_genre"]}</span>
   <span style="display:inline-block;padding:4px 12px;border-radius:99px;font-size:0.75rem;font-weight:600;margin-right:6px;margin-top:4px;background:#1e1e3a;color:#fbbf24">⭐ Popularity {int(row_in["popularity"])}</span>
 </div>
 ''', unsafe_allow_html=True)
