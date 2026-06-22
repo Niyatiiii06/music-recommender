@@ -197,7 +197,6 @@ if st.button("Recommend 🎯"):
             <div>
               <div class="rtitle">{song['track_name']}</div>
               <div class="rartist">{song['artist']}</div>
-              <span class="rgenre">{song['genre']}</span>
             </div>
           </div>
           <div class="rcard-right">
